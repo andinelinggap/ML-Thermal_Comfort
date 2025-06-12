@@ -1,0 +1,6 @@
+README.html (text/html) 640708 bytes.
+db_metadata.csv (application/octet-stream) 226093 bytes.
+ashrae_db2.01.csv (application/octet-stream) 55913610 bytes.
+D1F671.json (text/plain;charset=UTF-8) 9030 bytes.
+db_measurements_v2.1.0.csv.gz (application/x-gzip) 3300776 bytes.
+parameter_description.pdf (application/pdf) 89359 bytes.
