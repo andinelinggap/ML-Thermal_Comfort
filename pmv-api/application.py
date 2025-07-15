@@ -4,7 +4,7 @@ import joblib
 import os
 import csv
 from io import StringIO
-from datetime import datetime, timedelta  # <<< tambahkan timedelta
+from datetime import datetime, timedelta  
 from flask_cors import CORS
 from supabase import create_client, Client
 
@@ -85,7 +85,7 @@ def predict():
     pmv_value, tc_status = get_thermal_comfort_status(pmv_value_raw)
 
     # ⬇️ Simpan ke Supabase dengan waktu +7 jam (WIB)
-    now = (datetime.utcnow() + timedelta(hours=7)).isoformat()  # <<< offset +7 jam
+    now = (datetime.utcnow() + timedelta(hours=7)).isoformat() 
 
     payload = {
         "time": now,
